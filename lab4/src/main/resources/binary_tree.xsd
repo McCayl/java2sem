@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <!-- Основной элемент, представляющий бинарное дерево -->
+    <xs:element name="BinaryTree">
+        <xs:complexType>
+            <xs:sequence>
+                <!-- Корневой узел дерева -->
+                <xs:element name="Node" type="NodeType"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Определение типа узла бинарного дерева -->
+    <xs:complexType name="NodeType">
+        <xs:sequence>
+            <!-- Значение узла -->
+            <xs:element name="Value" type="xs:int"/>
+            <!-- Левый потомок -->
+            <xs:element name="Left" type="NodeType" minOccurs="0"/>
+            <!-- Правый потомок -->
+            <xs:element name="Right" type="NodeType" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

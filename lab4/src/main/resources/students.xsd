@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <!-- Корневой элемент списка студентов -->
+    <xs:element name="Students">
+        <xs:complexType>
+            <xs:sequence>
+                <!-- Студент, который может повторяться (список) -->
+                <xs:element name="Student" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <!-- ID студента -->
+                            <xs:element name="ID" type="xs:int"/>
+                            <!-- Имя студента -->
+                            <xs:element name="Name" type="xs:string"/>
+                            <!-- Возраст студента -->
+                            <xs:element name="Age" type="xs:int"/>
+                            <!-- Группа студента -->
+                            <xs:element name="Group" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'com.mccayl'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.postgresql:postgresql:42.7.1'
+    implementation 'org.slf4j:slf4j-simple:2.0.9'
+}
+
+test {
+    useJUnitPlatform()
+}
