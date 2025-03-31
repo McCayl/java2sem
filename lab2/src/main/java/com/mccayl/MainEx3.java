@@ -12,7 +12,7 @@ class FileReaderThread extends Thread {
     @Override
     public void run() {
         try {
-            Path path = Paths.get(System.getProperty("user.dir"), "lab6", "src", "MainEx3.java");
+            Path path = Paths.get(System.getProperty("user.dir"), "lab2", "src", "main", "java", "com", "mccayl", "MainEx3.java");
             System.out.println("Trying to read: " + path.toAbsolutePath());
 
             if (!Files.exists(path)) {

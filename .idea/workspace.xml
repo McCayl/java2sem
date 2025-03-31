@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfb6557d-fc45-4aec-a0d7-498442dfaec1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="cfb6557d-fc45-4aec-a0d7-498442dfaec1" name="Changes" comment="upd docker-compose.yml lab3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/src/main/resources/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/src/main/resources/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +182,19 @@
       <option name="presentableId" value="Default" />
       <updated>1743395472323</updated>
     </task>
+    <task id="LOCAL-00001" summary="upd docker-compose.yml lab3">
+      <created>1743406730295</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743406730295</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="upd docker-compose.yml lab3" />
+    <option name="LAST_COMMIT_MESSAGE" value="upd docker-compose.yml lab3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
